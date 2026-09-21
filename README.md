@@ -6,6 +6,15 @@ This project started because I wanted to run KDE Plasma on a Mali based device w
 
 The script sets up the required session environment, starts the required services, forces a Mesa software rendering path, applies KWin and Qt workarounds, and launches KDE Plasma through Termux:X11.
 
+# IMPORTANT
+
+This script is A FORK of the original from the video tutorial linked below, I'm in no way, shape or form endorsing theft.
+Below is a guide how to set it up, if you want to continue watch the installation tutorial.
+
+## KDE Plasma installation
+
+For a KDE Plasma installation guide, refer to [this tutorial](https://www.youtube.com/watch?v=PyDQmfeRXQc&t=394s). 
+
 ## What the script does
 
 The script handles the setup automatically:
@@ -37,10 +46,6 @@ You will need:
 * A working Linux userspace inside Termux
 
 The script also attempts to source `~/.config/linux-gpu.sh` if it exists. This allows additional GPU related environment configuration to be loaded before KDE starts.
-
-## KDE Plasma installation
-
-For a KDE Plasma installation guide, refer to [this tutorial](https://www.youtube.com/watch?v=PyDQmfeRXQc&t=394s). 
 
 ## Termux:API
 
