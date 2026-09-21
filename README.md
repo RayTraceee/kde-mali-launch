@@ -92,7 +92,9 @@ If KDE starts correctly but dies when you switch applications, check your device
 
 Make sure the relevant Termux and Termux:X11 processes are allowed to continue running in the background.
 
-The exact setting depends on your Android version and device manufacturer.
+On some Android devices, child process limitations can interfere with KDE Plasma running in the background. If available on your device, disable the relevant child process limitation in **Developer options**.
+
+Results may vary depending on your device, Android version, manufacturer-specific background process management, and system configuration.
 
 ## Mesa software rendering
 
