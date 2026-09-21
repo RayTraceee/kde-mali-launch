@@ -1,5 +1,3 @@
-# kde-mali-launch
-
 # KDE Plasma on Mali Devices
 
 A launch script for running KDE Plasma through Termux:X11 on Android devices with Mali graphics.
